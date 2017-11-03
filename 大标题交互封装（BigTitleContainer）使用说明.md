@@ -158,7 +158,7 @@ public abstract int getContentLayoutId();
 ```
 
 ## TitleBar
-TitleBar是根据绿城app旧版本顶部标题栏布局做的标题栏封装，内部布局文件view_title_bar.xml跟绿城head_save_view.xml一模一样
+TitleBar是根据旧版顶部标题栏布局做的标题栏封装，内部布局文件view_title_bar.xml跟head_save_view.xml一模一样
 ### head_save_view.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -268,7 +268,7 @@ TitleBar是根据绿城app旧版本顶部标题栏布局做的标题栏封装，
 ```
 
 ### **使用注意**:
-绿城旧版本的标题栏，大部分是通过在布局里inclue添加head_save_view.xml，
+版本的标题栏，大部分是通过在布局里inclue添加head_save_view.xml，
 结合StyleUtil工具类来实现的，有部分页面未使用StyleUtil工具类，自己获取相应的View来定义。
 这次修改时，如果使用了BigTitleContainer，结合TitleBar，则不再需要head_save_view.xml，
 可以将head_save_view.xml内部view全部去掉既可，这样感觉改动比较小
