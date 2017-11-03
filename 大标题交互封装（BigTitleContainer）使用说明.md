@@ -264,7 +264,7 @@ TitleBar是根据旧版顶部标题栏布局做的标题栏封装，内部布局
     customStyleWithRight()
     customStyleWithBoth()
     ...
-    这些方法跟绿城旧的标题工具类StyleUtil类统一
+    这些方法跟旧的标题工具类StyleUtil类统一
 ```
 
 ### **使用注意**:
