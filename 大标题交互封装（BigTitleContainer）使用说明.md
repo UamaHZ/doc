@@ -132,9 +132,8 @@ public abstract String getBigTitle();
 //设置页面具体内容的布局
 public abstract int getContentLayoutId();
  
- //设置标题栏，默认已经包含一个公共标题栏
- 
- public void setTitleBar(View titleBar)
+//设置标题栏，默认已经包含一个公共标题栏
+public void setTitleBar(View titleBar)
 ```
 
 ## SimpleBigTitleFragment 
@@ -151,9 +150,8 @@ public abstract String getBigTitle();
 //设置页面具体内容的布局
 public abstract int getContentLayoutId();
  
- //设置标题栏，默认已经包含一个公共标题栏
- 
- public void setTitleBar(View titleBar)
+//设置标题栏，默认已经包含一个公共标题栏
+public void setTitleBar(View titleBar)
 
 ```
 
@@ -268,7 +266,7 @@ TitleBar是根据旧版顶部标题栏布局做的标题栏封装，内部布局
 ```
 
 ### **使用注意**:
-版本的标题栏，大部分是通过在布局里inclue添加head_save_view.xml，
+旧版本的标题栏，大部分是通过在布局里inclue添加head_save_view.xml，
 结合StyleUtil工具类来实现的，有部分页面未使用StyleUtil工具类，自己获取相应的View来定义。
 这次修改时，如果使用了BigTitleContainer，结合TitleBar，则不再需要head_save_view.xml，
 可以将head_save_view.xml内部view全部去掉既可，这样感觉改动比较小
